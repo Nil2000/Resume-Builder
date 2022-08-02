@@ -1,0 +1,23 @@
+.input-container{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+label{
+    font-weight: 500;
+    font-size: 1rem;
+    align-self: start;
+}
+input{
+    padding: 10px 12px;
+    outline: none;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+input:hover{
+    border:1.5px solid #adadad
+}
+input:focus{
+    border:2px solid #4e03c7;
+}

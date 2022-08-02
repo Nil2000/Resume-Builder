@@ -1,0 +1,41 @@
+.body-container {
+    /* margin-top: -200px; */
+    /* background-color: rgb(183, 29, 29); */
+    display: flex;
+    flex-direction: column;
+    height:max-content;
+}
+.body-main{
+    display: flex;
+    margin: 20px 40px;
+}
+.body-container h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.body-toolbar {
+    padding: 1rem 3rem 1rem 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.colors {
+    display: flex;
+    gap: 30px;
+}
+.colors .color {
+    color: aqua;
+    height: 50px;
+    width: 50px;
+    border-radius: 5rem;
+    border-color: black;
+}
+.btn-download {
+    background: #8042e4;
+    border-radius: 11px;
+    box-shadow: 3px 3px #444444;
+    padding: 20px 45px;
+    color: #ffffff;
+    display: inline-block;
+    font: normal bold 25px/1 "Open Sans", sans-serif;
+    text-align: center;
+}
